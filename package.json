@@ -1,0 +1,31 @@
+{
+  "name": "opentelmetry-starting-out",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.46.1",
+    "@opentelemetry/core": "^1.24.1",
+    "@opentelemetry/exporter-zipkin": "^1.24.1",
+    "@opentelemetry/instrumentation-express": "^0.39.0",
+    "@opentelemetry/instrumentation-http": "^0.51.1",
+    "@opentelemetry/sdk-metrics": "^1.24.1",
+    "@opentelemetry/sdk-node": "^0.51.1",
+    "@opentelemetry/sdk-trace-base": "^1.24.1",
+    "@opentelemetry/sdk-trace-node": "^1.24.1",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  }
+}
